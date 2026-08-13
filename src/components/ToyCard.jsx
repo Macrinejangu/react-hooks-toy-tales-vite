@@ -8,6 +8,7 @@ function ToyCard({ toy, onLikeToy, onDonateToy }) {
     onLikeToy(id, likes);
   }
 
+  // Sends this toy's id up to App's handleDonateToy
   function handleDonateClick() {
     onDonateToy(id);
   }
