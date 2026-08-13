@@ -21,6 +21,7 @@ function App() {
     setShowForm((showForm) => !showForm);
   }
 
+  // PATCH: increase a toy's likes by 1
   // Called by ToyForm after its own POST request succeeds.
   // Adds the new toy (returned by the server) onto the end of state.
   function handleAddToy(newToy) {
